@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Pregnancy Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-header">
+            <h2>Pregnancy Chatbot</h2>
+        </div>
+        <div id="chat-box"></div>
+        <div id="chat-controls">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="hi">Hindi</option>
+                <option value="bn">Bengali</option>
+                <option value="ta">Tamil</option>
+                <option value="mr">Marathi</option>
+                <option value="pa">Punjabi</option>
+            </select>
+            <div id="input-area">
+                <input type="text" id="user-input" placeholder="Ask me about pregnancy...">
+                <button id="send-btn">Send</button>
+            </div>
+
+            <div id="feedback-section">
+                <div id="feedback-container">
+                    <!-- Using Flexbox for aligning feedback box and post button side by side -->
+                    <textarea id="feedback-box" placeholder="Leave your feedback here..."></textarea>
+                    <button id="post-btn">Post</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
