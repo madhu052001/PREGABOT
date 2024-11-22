@@ -69,7 +69,7 @@ The **Pregnancy Chatbot** or **PREGABOT** is a smart and dynamic tool designed t
    ```env
    GEMINI_API_KEY=your_api_key_here
    ```
-4. Add the `pregabot.xls` dataset to the project directory.
+4. Add the `pregabot.xlsx` dataset to the project directory.
 5. Start the chatbot server:
    ```bash
    python chatbot.py
@@ -80,7 +80,7 @@ The **Pregnancy Chatbot** or **PREGABOT** is a smart and dynamic tool designed t
 ## Future Enhancements
 
 1. **Expanded Dataset**:
-   - Enrich the `pregabot.xls` dataset for a broader scope of validation.
+   - Enrich the `pregabot.xlsx` dataset for a broader scope of validation.
 2. **Image Analysis**:
    - Allow image uploads for analyzing pregnancy symptoms and tracking growth milestones.
 3. **Enhanced Multilingual Features**:
